@@ -1,0 +1,16 @@
+.nosotros {
+    background-color: #f3e5f5; /* Fondo morado claro */
+    border: 2px solid #7b1fa2; /* Borde morado oscuro */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-nosotros  {
+    color: #4a148c; /* Texto morado oscuro */
+    font-size: 2em;
+    font-weight: bold;
+  }

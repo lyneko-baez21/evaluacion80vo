@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bd9dcb; /* Fondo morado oscuro */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(163, 87, 115, 0.1);
+  }
+  
+  .navbar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff; /* Texto blanco */
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-link {
+    color: #ede7f6; /* Texto morado claro */
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #d1c4e9; /* Texto más claro al pasar el mouse */
+  }
+  
+  .navbar-button {
+    background-color: #4a148c; /* Botón morado más oscuro */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-button:hover {
+    background-color: #9572ab; /* Botón más claro al pasar el mouse */
+  }

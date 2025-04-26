@@ -1,0 +1,32 @@
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3e5f5; 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .slider-btn {
+    background-color: #7b1fa2; 
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .slider-btn:hover {
+    background-color: #4a148c;
+  }
+  
+  .slider-img {
+    max-width: 80%;
+    max-height: 400px;
+    border: 5px solid #7b1fa2; 
+    border-radius: 10px;
+  }
